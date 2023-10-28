@@ -1,0 +1,7 @@
+import FindLatestArticlles.androidpolice_FindLatest as androidpolice_FindLatest
+import FindLatestArticlles.macrumors_FindLatest as macrumors_FindLatest
+import FindLatestArticlles.oregonlive_FindLatest as oregonlive_FindLatest
+
+androidpolice_FindLatest.FindLatest()
+macrumors_FindLatest.FindLatest()
+oregonlive_FindLatest.FindLatest()

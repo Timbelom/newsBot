@@ -12,7 +12,7 @@ with open(urlsFile, "r") as file:
         urls.append(line)
 
 # Initialize the Telegram Bot
-bot_token = 'MYTOKEN'
+bot_token = '6345625037:AAHwIy_QZnLuJaQ0g1dj0j6X1CK-EMC7XJk'
 bot = telebot.TeleBot(bot_token)
 
 # Define a function to scrape finance news

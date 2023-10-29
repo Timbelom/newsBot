@@ -9,3 +9,5 @@ The urls file holds all urls, before adding one manually you could check if it c
 scrapeNews.py ectracts the needed text from the pages
 botMessage.py handles sending the messages
 It will not post about bad urls, but they still might break something
+
+token and botToken# hold the needed tokens for the bot

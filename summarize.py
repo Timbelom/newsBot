@@ -1,6 +1,10 @@
 "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"
 import openai
 
+# Set your OpenAI API key here
+api_key = 'YOUR_API_KEY'
+openai.api_key = api_key
+
 def summarize_text_from_file(file_path):
     with open(file_path, 'r') as file:
         text = file.read()
@@ -20,6 +24,7 @@ def summarize_text_from_file(file_path):
     return summary
 
 # Example usage
-file_path = 'text.txt'
+file_path = 'your_text_file.txt'  # Replace with the path to your text file
 summary = summarize_text_from_file(file_path)
 print(summary)
+

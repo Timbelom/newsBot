@@ -19,5 +19,6 @@ pip install requests
 pip install newsapi
 pip install openai
 ```
-![How this all works](imgs\newsbot\flow.jpg "How this all works")
+<img src="imgs/newsbot flow.jpg"/>
+
 

@@ -8,30 +8,23 @@ headlines = newsapi.get_everything(
     to='2023-10-30',
     language='en',
     sort_by='relevancy',
-    excludeDomains='rt.com'
+    # excludeDomains='rt.com'  # Add this line to exclude results from rt.com
 )
 
-# Create an array to store the data you want to return.
 data_array = []
-# def is_file_empty(file_path):
-#     return os.path.getsize(file_path) == 0
-
-urlsFile = "urlStuff/urls.txt" 
-# Open a file to save the first 5 URLs.
-with open(urlsFile, 'w') as file:
-    for article in headlines['articles'][:5]:
+for article in headlines['articles']:
+    if 'rt.com' not in article['url']:
         title = article['title']
         description = article['description']
         url = article['url']
 
         # Append the data to the data_array
         data_array.append({'title': title, 'description': description, 'url': url})
+        if len(data_array)>4:
+            break
 
-        # Save the URL to the file
-        # if is_file_empty(urlsFile):
-        #     file.write(url)
-        # else:
-        file.write(url + '\n')
+
+
         
 
 # Print the data_array

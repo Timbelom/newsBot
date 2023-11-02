@@ -3,7 +3,6 @@ import json
 import time
 import requests
 from bs4 import BeautifulSoup
-import scrapeNews as scrapeNews
 import summarize as summarise
 import extractor as extractor
 # urlsFile = "urlstuff/urls.txt"  
@@ -16,7 +15,7 @@ json_file_path = "temp/items.json"
 with open(json_file_path, 'r') as json_file:
     articles = json.load(json_file)
         
-tokenfile = "token/botToken1.txt"
+tokenfile = "tokens/botToken1.txt"
 with open(tokenfile, "r") as file:
     for line in file:
         bot_token = line.rstrip('\n')
@@ -30,21 +29,6 @@ bot = telebot.TeleBot(bot_token)
 def send_welcome(message):
     bot.reply_to(message, "Welcome to the Finance News Bot! Use /getnews to get the latest finance news.")
 
-# @bot.message_handler(commands=['getnews'])
-# def send_finance_news(message):
-#     for i in urls:
-#         finance_news = scrapeNews.scrape_finance_news(i)
-#         if len(finance_news)>0:
-
-#             for article in finance_news:
-#                 title = article['title']
-#                 description = article['description']
-
-#                 # Check if the link exists and add it to the message if available
-#                 link = article.get('link', 'Link not available')
-#                 summary = summarise.summarize_text_from_file()
-#                 message_text = f"**{title}**\n{description}\{summary}\nLink: {link}"  
-#                 bot.send_message(message.chat.id, message_text)
 @bot.message_handler(commands=['getnews'])
 def send_finance_news(message):
     for article in articles:
@@ -56,6 +40,8 @@ def send_finance_news(message):
         # You mentioned a "summary" function, so call it here if available
         extractor.extract(link)
         summary = summarise.summarize_text_from_file() # Replace with your actual summarization logic
+        
+        # summary = "tetstst"
 
         message_text = f"**{title}**\n{description}\n{summary}\nLink: {link}"
         bot.send_message(message.chat.id, message_text)

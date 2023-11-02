@@ -14,7 +14,7 @@ def summarize_text_from_file():
     with open("temp/text.txt","r") as file:
         content = file.read()
     # Set the parameters for the API call
-    prompt = f"Summarize the following text in form of a news brief: {content}"
+    prompt = f"Summarize the following text in form of a news brief, make it 2 to 3 paragraphs of the most important information: {content}"
     max_tokens = 300  # Adjust the number of tokens as needed for the desired summary length
 
     # Make an API call to generate the summary
@@ -23,12 +23,11 @@ def summarize_text_from_file():
         prompt=prompt,
         max_tokens=max_tokens
     )
-
     summary = response.choices[0].text
     return summary
 
 # # Example usage
 # file_path = 'text.txt'  # Replace with the path to your text file
-summary = summarize_text_from_file()
-print(summary)
+# summary = summarize_text_from_file()
+# print(summary)
 

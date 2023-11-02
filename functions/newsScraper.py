@@ -7,7 +7,8 @@ headlines = newsapi.get_everything(
     from_param='2023-10-28',
     to='2023-10-30',
     language='en',
-    sort_by='relevancy'
+    sort_by='relevancy',
+    exclude='rt'
 )
 
 # Create an array to store the data you want to return.

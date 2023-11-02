@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 
 # URL of the webpage to scrape
-# url = "https://www.forbes.com/sites/iainmartin/2023/10/28/saudi-oil-billions-draw-wall-street-to-davos-in-desert-as-israel-hamas-war-rages/"
 def extract(url):
     # Send an HTTP GET request to the URL
     response = requests.get(url)
@@ -16,9 +15,10 @@ def extract(url):
         paragraphs = soup.find_all('p')
 
         # Create a file and save the paragraphs
-        with open('text.txt', 'w', encoding='utf-8') as file:
+        with open('temp/text.txt', 'w', encoding='utf-8') as file:
             for paragraph in paragraphs:
                 file.write(paragraph.get_text() + '\n')
+        file.close()
 
         print("Paragraphs extracted and saved to text.txt")
     else:

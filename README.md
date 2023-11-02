@@ -1,8 +1,8 @@
 # newsBot
 [run.py](run.py) will update the urls file and run the telegram bot @NewsSource_bot \
-[newstest.py](newstest.py) is a test script to manually verify a given URL  \
+[newstest.py](newstest.py) is a test script to manually verify a given URL  
 
-[newsScraper.py](functions/newsScraper.py) finds and stores article info inot [items.json](temp/items.json) \
+[newsScraper.py](functions/newsScraper.py) finds and stores article info into [items.json](temp/items.json) \
 [extractor.py](functions/extractor.py) extracts the needed text from the pages \
 [summarize.py](functions/summarize.py) uses davinci Ai processing to summarize each article \
 [botMessage.py](functions/botMessage.py) handles sending the messages \

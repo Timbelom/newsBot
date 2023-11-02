@@ -1,13 +1,18 @@
 # "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"
 import openai
 # Set your OpenAI API key here
-api_key = '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'
-openai.api_key = api_key
-with open("text.txt","r") as file:
-    content = file.read()
+
 # print(content)
 def summarize_text_from_file():
-
+    tokenfile = "tokens/openaikey.txt"
+    with open(tokenfile, "r") as file:
+        for line in file:
+            api_key = line.rstrip('\n')
+    # api_key = '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'
+    openai.api_key = api_key
+    
+    with open("temp/text.txt","r") as file:
+        content = file.read()
     # Set the parameters for the API call
     prompt = f"Summarize the following text in form of a news brief: {content}"
     max_tokens = 300  # Adjust the number of tokens as needed for the desired summary length

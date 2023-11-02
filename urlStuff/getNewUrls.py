@@ -1,9 +1,0 @@
-import FindLatestArticlles.androidpolice_FindLatest as androidpolice_FindLatest
-import FindLatestArticlles.macrumors_FindLatest as macrumors_FindLatest
-import FindLatestArticlles.oregonlive_FindLatest as oregonlive_FindLatest
-import clearUrls
-
-clearUrls.clear("urlStuff/urls.txt")
-androidpolice_FindLatest.FindLatest()
-macrumors_FindLatest.FindLatest()
-oregonlive_FindLatest.FindLatest()

@@ -12,10 +12,15 @@ It will not post about bad urls, but they still might break something
 
 token and botToken# hold the needed tokens for the bot
 
-'''
+
+
+```shell
+# Your CMD code here
 pip install telebot
 pip install bs4
 pip install requests
 pip install newsapi
 pip install openai
-'''
+
+
+

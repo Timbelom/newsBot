@@ -1,6 +1,6 @@
 import openai
 
-api_key = 'YOUR_API_KEY'  # Replace with your actual API key
+api_key = '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' # Replace with your actual API key
 prompt = "Once upon a time,"
 
 openai.api_key = api_key

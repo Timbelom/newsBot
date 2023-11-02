@@ -18,3 +18,5 @@ pip install bs4
 pip install requests
 pip install newsapi
 pip install openai
+
+![Alt text](imgs\newsbot\flow.jpg "How this all works")

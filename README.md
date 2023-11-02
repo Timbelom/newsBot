@@ -8,7 +8,7 @@ The [urls](urlStuff/urls.txt) file holds all urls, before adding one manually yo
 
 [scrapeNews.py](functions/scrapeNews.py) extracts the needed text from the pages \
 [botMessage.py](functions/botMessage.py) handles sending the messages \
-It will not post about bad urls, but they still might break something \
+It will not post about bad urls, but they still might break something
 
 [token](token) holds the needed tokens for the bot
 

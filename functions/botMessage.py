@@ -5,12 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import summarize as summarise
 import extractor as extractor
-# urlsFile = "urlstuff/urls.txt"  
-# urls=[]
-# with open(urlsFile, "r") as file:
-#     for line in file:
-#         line = line.rstrip('\n')
-#         urls.append(line)
+
 json_file_path = "temp/items.json"
 with open(json_file_path, 'r') as json_file:
     articles = json.load(json_file)
@@ -20,8 +15,7 @@ with open(tokenfile, "r") as file:
     for line in file:
         bot_token = line.rstrip('\n')
 
-# Initialize the Telegram Bot
-# bot_token = '6345625037:AAHwIy_QZnLuJaQ0g1dj0j6X1CK-EMC7XJk'
+
 bot = telebot.TeleBot(bot_token)
 
 # Define a command handler for '/start'

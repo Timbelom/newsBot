@@ -1,14 +1,10 @@
-# "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"
 import openai
-# Set your OpenAI API key here
 
-# print(content)
 def summarize_text_from_file():
     tokenfile = "tokens/openaikey.txt"
     with open(tokenfile, "r") as file:
         for line in file:
             api_key = line.rstrip('\n')
-    # api_key = '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'
     openai.api_key = api_key
     
     with open("temp/text.txt","r") as file:
@@ -26,8 +22,4 @@ def summarize_text_from_file():
     summary = response.choices[0].text
     return summary
 
-# # Example usage
-# file_path = 'text.txt'  # Replace with the path to your text file
-# summary = summarize_text_from_file()
-# print(summary)
 

@@ -1,16 +1,15 @@
-"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"
+# "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"
 import openai
-
 # Set your OpenAI API key here
-api_key = 'YOUR_API_KEY'
+api_key = "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"
 openai.api_key = api_key
-
-def summarize_text_from_file(file_path):
-    with open(file_path, 'r') as file:
-        text = file.read()
+with open("text.txt","r") as file:
+    content = file.read()
+print(content)
+def summarize_text_from_file():
 
     # Set the parameters for the API call
-    prompt = f"Summarize the following text: {text}"
+    prompt = f"Summarize the following text: {content}"
     max_tokens = 100  # Adjust the number of tokens as needed for the desired summary length
 
     # Make an API call to generate the summary
@@ -23,8 +22,8 @@ def summarize_text_from_file(file_path):
     summary = response.choices[0].text
     return summary
 
-# Example usage
-file_path = 'your_text_file.txt'  # Replace with the path to your text file
-summary = summarize_text_from_file(file_path)
+# # Example usage
+# file_path = 'text.txt'  # Replace with the path to your text file
+summary = summarize_text_from_file()
 print(summary)
 

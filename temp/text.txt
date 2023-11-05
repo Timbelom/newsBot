@@ -1,25 +1,50 @@
-Founder and CEO at Goodera, a leading CSR, ESG and corporate volunteering company.
- 
-In their celebrated book, What Happened To You? Conversations on Trauma, Resilience and Healing, Oprah Winfrey and psychiatrist Bruce D. Perry talk about “connectedness” being at the core of well-being. They introduce the idea that being part of a community and creating true emotional bonds helps people heal from the impact of deep trauma and deal with everyday stressors more effectively.
-This takeaway is also supported by a 2017 study conducted among adults that found that community participation and mental well-being were positively related.
-We are living in the post-Covid-19 world where building connections has become more important than ever before. People have transformed their lifestyles, sometimes with compromised mental health due to the myriad of experiences during the pandemic.
-The macroeconomic trends have also created job-related insecurities. Families and communities are now experiencing new challenges as they live with the stress caused by looming uncertainty. People have been in survival mode for too long, thus increasing their hunger and need for social connectedness.
-As employees are returning to work during such precarious times, some of the key trends shaping the global workforce today are managing distributed and skills-based teams, greater use of technology and automation and Millennials and Gen-Zs forming a large part of the workforce.
-Deloitte’s 2023 Gen-Z and Millennial Survey, which interviewed around 22,000 people from 44 countries, found that today’s Gen-Z and Millennial employees feel the need to balance work lives with a drive for societal change (download required). They recognize the progress that has been made over the years but are expecting more. Nearly half of Gen-Zs and four in 10 Millennials said they feel stressed most of the time.
-These trends look similar in the overall workforce as well. Gallup's "State of the Global Workplace Report: 2023" found that 56% of disengaged employees (download required) felt a lot of stress the previous day. Further, the report also found that 77% of employees are not engaged or actively disengaged at work.
-While this doesn’t indicate that the employees are completely dysfunctional, it indicates that their level of proactivity and enthusiasm to contribute are low. Employees' emotional investment in the workplace is not enough to promote productivity or ensure the collective well-being of the workforce.
-At the outset, this may seem like an alarming percentage of the workforce that doesn’t feel okay most of the time. However, the Deloitte survey also gives us a glimmer of hope—over 80% of the respondents said that mental health policies are an important indicator for them when considering an employer, and over 50% agreed that their employers’ efforts to focus on mental health have brought about positive change.
-This indicates the next major trend in the workplace today: prioritizing employee engagement and mental well-being.
-As the corporate world finds itself in an unprecedented position, it is an opportune moment for companies to unify the workforce, build mentally safe environments and connectedness and strengthen belonging by leading with purpose.
-According to a Porter Novelli survey, over 90% of employees who work at companies with a strong sense of purpose say they’re more inspired, motivated and loyal. There are several ways to drive collective purpose in organizations, such as corporate donations, volunteering and employee-matching gift programs.
-Volunteering, among these, comes equipped with the special power to not only create a sense of purpose but also act as a vehicle to engage the workforce meaningfully, build connectedness and communities within the organization and establish a sense of well-being.
-Numerous studies have consistently highlighted the profound relationship between volunteering and enhanced mental health. Individuals who engage in volunteering regularly report lower levels of depression, greater life satisfaction and a heightened sense of purpose. And eight out of 10 employees believe that volunteering is essential to mental well-being, according to the Porter Novelli survey cited above.
-As a global employee volunteering firm, Goodera, my company has seen a steady rise in the number of employee volunteering events organized by companies, with in-person events becoming more frequent and popular. Companies are using opportunities such as conferences, summits, anniversary celebrations and employee onboarding days to foster a sense of purpose and engagement among their workforce.
-A great starting point to understand how employees are feeling is periodic, anonymous pulse-check surveys. These could involve asking them questions that range from the status of their mental well-being to how they feel among colleagues.
-Identifying social leaders and encouraging them to foster a sense of belonging among their colleagues is a great next step. These social leaders can encourage employees to share their concerns, execute community-level activities and understand what causes matter to them.
-HR and corporate social responsibility (CSR) departments can then align the causes that their employees care about with their organizations' business and ESG goals. The social leaders, with the backing of the CSR and HR departments, can gather and encourage employees to volunteer for these initiatives.
-Volunteering can positively benefit the employee experience. According to Goodera's post-event surveys, 97.5% of the respondents agree they feel a greater sense of belonging to their organization after a volunteer event.
-Volunteering is not a substitute for therapy or a solution for mental health illnesses, but it can be a critical tool in helping to prevent mental health issues and heal from them. It takes employees out of their comfort zones, helps them interact with those from other backgrounds and teams and enables engagement with outside communities. This busts biases, increases emotional intelligence and fosters a strong sense of warmth in company culture, ultimately contributing to a more mentally safe workplace.
-Today, we spend more than half of our day at the workplace and, hence, half our lives among our colleagues. Therefore, it’s extremely important to feel "connected" and to live healthy lives. Corporate volunteering may be an important part of building such connections and the healthy workplaces of tomorrow.
- Forbes Technology Council is an invitation-only community for world-class CIOs, CTOs and technology executives. Do I qualify?
+Askhat - stock.adobe.com
+In October 2023, the RansomedVC cybercriminal group allegedly gained access to the District of Columbia Board of Elections voter database via DataNet Systems, a third-party supplier. RansomedVC claimed it obtained 600,000 lines of voter registration information, and the DC Board of Elections confirmed that DataNet Systems stored a copy of the voter registration database, including partial Social Security numbers, driver's license numbers, dates of birth and other personally identifiable information.
+Earlier the same month, identity and access management vendor Okta's customer support case management system, run by a third party, suffered a breach via social engineering attack. The attackers viewed HTTP Archive (HAR) files used to replicate user issues. HAR files contain sensitive information, including cookies and session tokens, that can be used to impersonate a valid user. The attackers then used the session cookies in an attempt to log in and create new administrative users.
+In 2022, password manager application LastPass experienced two interrelated data breaches. First, attackers compromised a developer account to access "portions of source code" and proprietary LastPass technical information. Four months later, the attackers used the knowledge gained from their first attack to socially engineer another employee to obtain valid credentials and encryption keys. These were used to exfiltrate backup copies of the customer database and customer password vaults stored by a third party.
+What's the common theme in these attacks? In each case, the attackers took advantage of the security weaknesses of a third-party partner. Attacking third parties isn't a new tactic. One of the most infamous third-party breaches occurred in 2013 when attackers went after Target's third-party vendor for refrigeration. The attackers phished an employee and installed malware on the employee's computer. Using that malware, the attackers found credentials to access Target's internal systems, including the point-of-sale (POS) system. The attackers were able to hack the POS system to exfiltrate the credit and debit card information of 70 million to 110 million customers.
+While it isn't yet known how RansomedVC compromised DataNet Systems, it's probable that the DC Board of Elections breach played out exactly like these other breaches: Attackers compromised identities to access poorly protected sensitive data.
+We've long known that attackers target employees with phishing, smishing, vishing and other social engineering attacks because people are easily manipulated and conned. Once attackers have compromised an identity, they either get direct access to the data or a foothold into the environment from which they can move laterally to obtain additional credentials and eventually gain access to the data.
+Yet, according to TechTarget's Enterprise Strategy Group research on passwordless authentication, despite knowing how well multifactor authentication (MFA) defends against social engineering attacks, 38% of organizations still don't make MFA mandatory for their entire workforce. It appears to me that many CISOs and security teams are overconfident in password security, relying on outdated heuristics, such as password complexity and rotation, while deprioritizing newer initiatives, such as phishing-resistant MFA and passwordless authentication.
+Similarly, many organizations are overconfident in their data security capabilities. ESG research on cloud data security found 93% of organizations are mostly or completely confident in their ability to discover all their public cloud resident data. Yet 19% of organizations lost unknown shadow data. Likewise, 92% said they are mostly or completely confident in their ability to classify that data. However, 33% lost data due to misclassification.
+Organizational overconfidence extends from authentication to data security to overall cybersecurity -- both for the organization and its partners. Many organizations believe because they've made the effort to put in place the best defenses, their partners have made the same level of effort. They also believe because they treat data as sensitive and worthy of the highest levels of protection that their partners have the same understanding and apply the same rigor to their data.
+Partners are just that -- partners. And they have partners of their own. Organizations need to partner with their partners when it comes to cybersecurity.
+Cybersecurity is not a static endeavor. Attackers don't rest on their laurels; they're always developing new techniques and testing an organization's and its partners' defenses to identify weaknesses. Just as organizations continuously assess and improve their cybersecurity strategy and capabilities, they too must work with partners to continuously assess and improve their cybersecurity strategy and capabilities.
+The key lesson is that if organizations make the effort to store data, it has continued value to them. If it has value to them, it has value to an attacker. It is incumbent on organizations to know where that data is stored at all times and to ensure the appropriate levels of protection are applied to that data. This is true regardless of which organization owns or controls the storage.
+Focus first on identity security (authentication and authorization) and data security (discovery and classification) as these are prime attack targets.
+Key cybersecurity actions to take include the following:
+Finally, organizations must ensure that their partners' cybersecurity strategy and implementation are just as good or better.
+Senior Analyst Jack Poller covers identity and data security at TechTarget's Enterprise Strategy Group.
+Sessions at ONUG Fall 2023 emphasized the value of a unified networking and security approach. GSK integrated the two to begin ...
+The two main types of 5G deployment options are standalone and non-standalone. Find out how they're different, how to procure ...
+NaaS is an Opex-based consumption model that simplifies deployment, policy configuration and purchasing. The model is beneficial ...
+Digital transformation is tough. Find out how using a digital transformation framework can keep your company on the right track.
+The application of quantum computing to AI has the potential to disrupt a diverse array of industries. Learn why that potential ...
+Heading into 2024, CIOs must make digital transformation a core competency. Bestselling author Isaac Sacolick names the primary ...
+End-user computing tends to overlap with numerous other business technologies, such as cloud computing, security and mobility. ...
+Nvidia plans to jump into the Windows Arm CPU fray along with Qualcomm, AMD and purportedly Microsoft as chipmakers bet that AI ...
+Finding the right device for a business scenario can be challenging, and adding rugged conditions to the mix can complicate ...
+Deploying and managing AI applications can become costly, especially if it is your first generative AI initiative. Learn how ...
+Are you ready to wrangle some data? Follow this step-by-step tutorial, and learn how to load, analyze and transform data to train...
+Amazon SageMaker Edge Manager helps manage ML applications at the edge. But enterprises can evaluate tools such as ONNX and AWS ...
+With support for SAP HANA 1.0 in the SAP BTP, Neo environment ending soon, users will face a choice between the Neo environment ...
+Why should companies invest in quantum computing? We speak to Sergio Gago, managing director for AI, machine learning and quantum...
+Noting that industry is on the cusp of ground-breaking transformation, digital infrastructure provider seals buyout as part of ...
+All Rights Reserved, 
+Copyright 2000 - 2023, TechTarget
+
+
+Privacy Policy
+
+
+
+Cookie Preferences 
+
+
+
+Cookie Preferences 
+
+
+
+Do Not Sell or Share My Personal Information
 

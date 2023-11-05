@@ -1,0 +1,37 @@
+{
+    "filters": [
+        {
+            "language": "en",
+            "keywords": [
+                "ESG regulations",
+                "decarbonisation",
+                "esg-banking",
+                "esg-reporting",
+                "nonfinancial report",
+                "green projects",
+                "green finance",
+                "taxonomy",
+                "GRI standards",
+                "climate regulations",
+                "climate doctrine",
+                "carbon tokens"
+            ],
+            "sort_by": "relevancy"
+        },
+        {
+            "language": "ru",
+            "keywords": [
+                "esg",
+                "esg-финансирование",
+                "esg-стратегия",
+                "устойчивое развитие",
+                "зеленые финансы",
+                "зеленые облигации",
+                "ЦУР",
+                "отчетность",
+                "адаптационные облигации"
+            ],
+            "sort_by": "relevancy"
+        }
+    ]
+}

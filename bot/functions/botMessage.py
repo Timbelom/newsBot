@@ -33,14 +33,15 @@ def send_finance_news(message):
 
         # You mentioned a "summary" function, so call it here if available
         extractor.extract(link)
-        summary = summarise.summarize_text_from_file() # Replace with your actual summarization logic
-        
+        summary1 = summarise.summarize_text_from_file("Write a one paragraph newsbrief summarizing this text: ") # Replace with your actual summarization logic
+        summary2 = summarise.summarize_text_from_file("Write 5-10 esential keywords of this text as hashtags: ") # Replace with your actual summarization logic
+        summary = summary1+summary2
         # summary = "tetstst"
 
-        message_text = f"**{title}**\n{description}\n{summary}\nLink: {link}"
+        message_text = "**{}**\n---\n{}\n---\n{}\n---\nLink: {}".format(title, description, summary, link)
         bot.send_message(message.chat.id, message_text)
 
-        time.sleep(5)  # Pause for 5 seconds
+        time.sleep(1)  # Pause for 5 seconds
                 
 # Start the bot
 print("\nBot Initialized")

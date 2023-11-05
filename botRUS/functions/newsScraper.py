@@ -1,17 +1,25 @@
 from newsapi import NewsApiClient
 import json
+from datetime import date, timedelta
+
+end_date = date.today()  # Today's date
+start_date = end_date - timedelta(days=7)  # One week ago
+
+with open('tokens/keywordsRUS.txt', 'r', encoding='utf-8') as file:
+    keywords = [line.strip() for line in file]
 
 tokenfile = "tokens/newsToken.txt"
 with open(tokenfile, "r") as file:
     for line in file:
         token = line.rstrip('\n')
+
         
-newsapi = NewsApiClient(api_key='token')
+newsapi = NewsApiClient(api_key=token)
 headlines = newsapi.get_everything(
-    q='ESG',
-    from_param='2023-10-28',
-    to='2023-10-30',
-    language='en',
+    q=' OR '.join(keywords) ,
+    from_param=start_date.strftime('%Y-%m-%d'),
+    to=end_date.strftime('%Y-%m-%d'),
+    language='ru',
     sort_by='relevancy',
 )
 

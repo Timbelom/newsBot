@@ -16,7 +16,7 @@ It will not post about bad urls, but they still might break something
 pip install telebot
 pip install bs4
 pip install requests
-pip install newsapi
+pip install newsapi-python
 pip install openai
 ```
 <img src="imgs/newsbot flow.jpg"/>

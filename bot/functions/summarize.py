@@ -3,7 +3,7 @@ import json
 import extractor as extractor
 
 def summarize_text_from_file(prompt):
-    tokenfile = "tokens/openaikey2.txt"
+    tokenfile = "tokens/openaikey.txt"
     with open(tokenfile, "r") as file:
         for line in file:
             api_key = line.rstrip('\n')

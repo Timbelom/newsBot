@@ -1,50 +1,96 @@
-Askhat - stock.adobe.com
-In October 2023, the RansomedVC cybercriminal group allegedly gained access to the District of Columbia Board of Elections voter database via DataNet Systems, a third-party supplier. RansomedVC claimed it obtained 600,000 lines of voter registration information, and the DC Board of Elections confirmed that DataNet Systems stored a copy of the voter registration database, including partial Social Security numbers, driver's license numbers, dates of birth and other personally identifiable information.
-Earlier the same month, identity and access management vendor Okta's customer support case management system, run by a third party, suffered a breach via social engineering attack. The attackers viewed HTTP Archive (HAR) files used to replicate user issues. HAR files contain sensitive information, including cookies and session tokens, that can be used to impersonate a valid user. The attackers then used the session cookies in an attempt to log in and create new administrative users.
-In 2022, password manager application LastPass experienced two interrelated data breaches. First, attackers compromised a developer account to access "portions of source code" and proprietary LastPass technical information. Four months later, the attackers used the knowledge gained from their first attack to socially engineer another employee to obtain valid credentials and encryption keys. These were used to exfiltrate backup copies of the customer database and customer password vaults stored by a third party.
-What's the common theme in these attacks? In each case, the attackers took advantage of the security weaknesses of a third-party partner. Attacking third parties isn't a new tactic. One of the most infamous third-party breaches occurred in 2013 when attackers went after Target's third-party vendor for refrigeration. The attackers phished an employee and installed malware on the employee's computer. Using that malware, the attackers found credentials to access Target's internal systems, including the point-of-sale (POS) system. The attackers were able to hack the POS system to exfiltrate the credit and debit card information of 70 million to 110 million customers.
-While it isn't yet known how RansomedVC compromised DataNet Systems, it's probable that the DC Board of Elections breach played out exactly like these other breaches: Attackers compromised identities to access poorly protected sensitive data.
-We've long known that attackers target employees with phishing, smishing, vishing and other social engineering attacks because people are easily manipulated and conned. Once attackers have compromised an identity, they either get direct access to the data or a foothold into the environment from which they can move laterally to obtain additional credentials and eventually gain access to the data.
-Yet, according to TechTarget's Enterprise Strategy Group research on passwordless authentication, despite knowing how well multifactor authentication (MFA) defends against social engineering attacks, 38% of organizations still don't make MFA mandatory for their entire workforce. It appears to me that many CISOs and security teams are overconfident in password security, relying on outdated heuristics, such as password complexity and rotation, while deprioritizing newer initiatives, such as phishing-resistant MFA and passwordless authentication.
-Similarly, many organizations are overconfident in their data security capabilities. ESG research on cloud data security found 93% of organizations are mostly or completely confident in their ability to discover all their public cloud resident data. Yet 19% of organizations lost unknown shadow data. Likewise, 92% said they are mostly or completely confident in their ability to classify that data. However, 33% lost data due to misclassification.
-Organizational overconfidence extends from authentication to data security to overall cybersecurity -- both for the organization and its partners. Many organizations believe because they've made the effort to put in place the best defenses, their partners have made the same level of effort. They also believe because they treat data as sensitive and worthy of the highest levels of protection that their partners have the same understanding and apply the same rigor to their data.
-Partners are just that -- partners. And they have partners of their own. Organizations need to partner with their partners when it comes to cybersecurity.
-Cybersecurity is not a static endeavor. Attackers don't rest on their laurels; they're always developing new techniques and testing an organization's and its partners' defenses to identify weaknesses. Just as organizations continuously assess and improve their cybersecurity strategy and capabilities, they too must work with partners to continuously assess and improve their cybersecurity strategy and capabilities.
-The key lesson is that if organizations make the effort to store data, it has continued value to them. If it has value to them, it has value to an attacker. It is incumbent on organizations to know where that data is stored at all times and to ensure the appropriate levels of protection are applied to that data. This is true regardless of which organization owns or controls the storage.
-Focus first on identity security (authentication and authorization) and data security (discovery and classification) as these are prime attack targets.
-Key cybersecurity actions to take include the following:
-Finally, organizations must ensure that their partners' cybersecurity strategy and implementation are just as good or better.
-Senior Analyst Jack Poller covers identity and data security at TechTarget's Enterprise Strategy Group.
-Sessions at ONUG Fall 2023 emphasized the value of a unified networking and security approach. GSK integrated the two to begin ...
-The two main types of 5G deployment options are standalone and non-standalone. Find out how they're different, how to procure ...
-NaaS is an Opex-based consumption model that simplifies deployment, policy configuration and purchasing. The model is beneficial ...
-Digital transformation is tough. Find out how using a digital transformation framework can keep your company on the right track.
-The application of quantum computing to AI has the potential to disrupt a diverse array of industries. Learn why that potential ...
-Heading into 2024, CIOs must make digital transformation a core competency. Bestselling author Isaac Sacolick names the primary ...
-End-user computing tends to overlap with numerous other business technologies, such as cloud computing, security and mobility. ...
-Nvidia plans to jump into the Windows Arm CPU fray along with Qualcomm, AMD and purportedly Microsoft as chipmakers bet that AI ...
-Finding the right device for a business scenario can be challenging, and adding rugged conditions to the mix can complicate ...
-Deploying and managing AI applications can become costly, especially if it is your first generative AI initiative. Learn how ...
-Are you ready to wrangle some data? Follow this step-by-step tutorial, and learn how to load, analyze and transform data to train...
-Amazon SageMaker Edge Manager helps manage ML applications at the edge. But enterprises can evaluate tools such as ONNX and AWS ...
-With support for SAP HANA 1.0 in the SAP BTP, Neo environment ending soon, users will face a choice between the Neo environment ...
-Why should companies invest in quantum computing? We speak to Sergio Gago, managing director for AI, machine learning and quantum...
-Noting that industry is on the cusp of ground-breaking transformation, digital infrastructure provider seals buyout as part of ...
-All Rights Reserved, 
-Copyright 2000 - 2023, TechTarget
-
-
-Privacy Policy
+Jump to
 
 
 
-Cookie Preferences 
 
 
 
-Cookie Preferences 
+
+Our experts answer readers' investing questions and write unbiased product reviews (here's how we assess investing products). Paid non-client promotion: In some cases, we receive a commission from our partners. Our opinions are always our own.
+Forbes announced it will be shutting down its investment app Q.ai on December 8, 2023. The AI-powered platform used both active management and automated investing strategies. It offered AI-powered portfolios on a range of investment types, including stocks, ETFs, commodities, and cryptocurrencies.
+If you have an existing Q.ai account, you must initiate a withdrawal and transfer your assets to a new account in an external investment app or online brokerage by December 8.
+There are plenty of robo-advisors and AI-operated investment platforms to choose from. Depending on what you're looking for, you can sign up for expert trading with advanced AI features, or a low-cost automated portfolio managed through some of the best robo-advisors.
+For a limited time: Earn a 1% bonus when you transfer your brokerage account to Robinhood, now through December 8, 2023. No cap on match. Terms apply.
+$0 ($1 for fractional shares; $2,000 for margin trading
+0% ($5/month for Robinhood Gold)
+Here are eight of the best robo-advisors and AI-powered investing apps.
+Betterment offers individual or joint accounts, IRAs, trust accounts, and cash reserve or checking accounts.
+$0 to open, $10 to start investing ($100,000 for premium plan)
+0.25%/year for digital plan; 0.40%/ year for premium plan; 1%/year for crypto portfolios
+Betterment is best for hands-off investors who want to take advantage of professionally built, personalized ETF and cryptocurrency portfolios. The platform offers CFP access, so it could suit those in search of additional guidance from human advisors.
+Betterment is our pick for the best overall robo-advisor because of its low fees, account flexibility, multiple portfolio options, and various investment options. A premium account with Betterment gets you unlimited access to certified financial planners (CFPs), but you'll need to meet a $100,000 minimum requirement. (A standard account has no minimum.)
+With Betterment, you can invest with stock and bond ETFs and cryptocurrencies. The online brokerage is great for retirement-focused individuals and goal-based investors. 
+Betterment review
+N/A
+$99 per year (or $29.99 per month)
+Tykr is an AI-powered stock screening platform great for all kinds of investors who want to implement active investing strategies. It can be a great addition to an external brokerage account, but you have to be willing to pay the extra cost.
+Tykr is an AI-powered stock screening investing platform that assists you in trading assets like stocks, ETFs, and cryptocurrencies through safe, conservative, and passive investing strategies. Tykr's AI gives stocks and other assets an overall financial strength score from 0 to 100 based on the asset's return in the market. 
+Active investors (including beginners interested in hands-on investing) can benefit from the portfolio tracker, stock watchlist, community features, and trade journal. Tykr's goal is to help investors trade and make better investment decisions through personalized stock recommendations, expert insight, and up-to-date market data. 
+Tykr doesn't offer CFPs, but it does encourage users to pair its platform with advice from a financial advisor. 
+Tykr charges $29.99 monthly, or $99 annually (which comes to about $8.25 per month). It's currently offering a free 14-day trial.
+$0
+$12.50 per month (or $120 annually)
+Streetbeat is an online AI-powered trading platform suitable for both hands-off and hands-on investors. But beginners may struggle to use the platform.
+Streetbeat is an AI-powered automated trading platform that provides users with access to multiple personalized investment portfolios, as well as DIY investing through the app. AI tracks real-time news and market changes for advanced investing strategies. 
+You can connect Streetbeat to an existing Robinhood brokerage account, or open a new account on Streetbeat when you create an investment portfolio. Streetbeat doesn't offer human advisor access.
+There are no management fees with Streetbeat, but you will have to pay $12.50 per month (or $120 annually). It's currently offering a seven-day free trial period. 
+Fund your first taxable investment account with at least $500 in the first 30 days of account opening and earn a $50 bonus.
+$1 ($500 for automated investing)
+$0 for stock trades. 0.25% for automated investing (0.06% to 0.13% for fund fees)
+Wealthfront is one of the best robo-advisor options if you're in search of low-cost automated portfolio management, and one of the best socially responsible investing apps for features like tax-loss harvesting, US direct indexing, and crypto trusts.
+Wealthfront is one of the best robo-advisors for low-cost automated trading and portfolio management. It offers ETFs, index funds, crypto trusts, ESG portfolios, and emerging market stocks. It even has a high-yield bond portfolio.
+Hands-off investors and beginners can use Wealthfront's automated trading tools like auto-rebalancing, smart-beta technology, US direct indexing, and tax-loss harvesting. But there's no human advisor access.
+Wealthfront has a $500 minimum requirement to start investing. 
+Wealthfront review
+Earn a $20 bonus when you open a new account and make your first successful recurring investment (min $5). Receive your bonus within 10 days of following month
+$5
+Monthly plans start at $3 for Personal, $5 for Personal Plus, and $9 for Premium
+Acorns is one of the best investment apps for beginners and hand-off investors who want to start investing but are overwhelmed by the choices with other investing apps. This simple and easy-to-use platform offers a low investment minimum, portfolio diversification, and beginner-friendly charting tools. Acorns is more expensive than other zero-fee apps out there, but the ease of use may make it worthwhile for certain users.
+Acorns is one of the best investment apps for beginners. It's a robo-advisor providing simplified trading and beginner-friendly charting tools. Acorns mainly invest in ETFs for easy portfolio diversification, but you can pay extra to trade individual stocks or add bitcoin-linked ETFs. 
+There's a $5 minimum to get started and a minimum $3 monthly fee (varies by account type). Acorns is great for mobile users. Plus, it offers additional banking, emergency savings, and retirement savings options all in one location. 
+Acorns is great for beginners but it doesn't offer human advisor access or advanced charting features. 
+Acorns Invest review
+No minimum
+standard account charges $84 per month ($999 annually)
+Trade Ideas is AI-powered robo-advisor best used when paired with an external brokerage account. Only advanced and hands-on investors willing to pay the high monthly fee should open an account with Trade Ideas.
+Trade Ideas is an AI-powered robo-advisor that uses pre-formulated built-in scanners to analyze potential investing strategies through backtesting. Trade Ideas offers a suite of advanced trading charts and tools designed to be paired with an external brokerage account. 
+Experienced investors wanting in-depth analysis, pre-built stock scans, simulated trading strategies, and real-time stock racing can benefit from Trade Ideas. But keep in mind that pricing is on the higher end. A standard account charges you $84 per month (or $999 annually) and Trade Ideas Premium charges $167 per month (or $1,999 annually).
+Trade Ideas also has a user chatroom and a vast educational library of instructional and educational videos. But there's no human advisor access.
+New M1 Finance users who open a brokerage account can earn up to $500 if they invest at least $75 in their account within 14 days of opening (offer ends December 31, 2023)
+$100 ($500 for IRAs)
+0% (cryptocurrencies are commission-free, but Apex Crypto takes 1% fee on transactions); $10/month M1 Plus
+M1 Finance is one of the best investment apps and could be a good choice if you're interested in trading stocks, ETFs, fractional shares, and cryptocurrencies. It offers both DIY trading and automated account features that make it suitable for both active and passive investors.
+M1 Finance is an online brokerage offering both automated and DIY investing through pie-based models. Passive and active investors can trade stocks, ETFs, fractional shares, and crypto through standard brokerage accounts, retirement accounts, and custodial accounts. 
+M1 Finance's robo-advisor is best for people who already have an M1 Finance bank account, loan, or credit card. But those looking for the convenience of automated trading paired with the flexibility of active investing strategies can also benefit. The brokerage has a $100 minimum requirement. 
+However, M1 Finance doesn't offer human advisor access. 
+M1 Finance review
+$0
+N/A
+Quantum AI is an AI-generated trading platform best for both beginner and experienced cryptocurrency investors. It’s not great for non-crypto focused investors.
+Quantum AI is an AI-operated trading platform for crypto. It uses AI algorithms and analysis to track current trends and trades on the crypto market. Both beginners and experienced cryptocurrency investors can benefit from Quantum AI's easy-to-use platform and automated trading.
+It's a secure platform offering various read-made trading strategies, a free demo mode, and 24/7 support. Quantum AI supports cryptocurrencies like bitcoin, ether, litecoin, and ripple. Moreover, the platform is free with no trading fees. 
+If you're not interested in trading cryptocurrencies, this isn't the platform for you.  
+
+
+Learn more:
+
+Top 15 Best Robo Advisors
+Robo Advisor Pros and Cons
+BI's Robo Investing Reviews
+Who Uses Robo Advisors?
+Top Robo Advisor Conferences
 
 
 
-Do Not Sell or Share My Personal Information
+
+
+Learn more:
+
+Top 15 Best Robo Advisors
+Robo Advisor Pros and Cons
+BI's Robo Investing Reviews
+Who Uses Robo Advisors?
+Top Robo Advisor Conferences
+
+
 

@@ -1,4 +1,5 @@
-from newsapi.newsapi_client import NewsApiClient
+# from newsapi.newsapi_client import NewsApiClient
+from newsapi import NewsApiClient
 import json
 from datetime import date, timedelta, datetime
 

@@ -17,7 +17,7 @@ with open(tokenfile, "r") as file:
 newsapi = NewsApiClient(api_key=token)
 
 def load_filter_params_from_json(json_file_path):
-    with open(json_file_path, 'r') as config_file:
+    with open(json_file_path, 'r', encoding='utf-8') as config_file:  # Specify UTF-8 encoding
         config = json.load(config_file)
     return config
 
